@@ -579,7 +579,7 @@ const FinalSummary = () => {
         </div>
         <div className="space-y-1">
           <div className="text-[10px] font-bold text-zinc-600 uppercase tracking-widest">College</div>
-          <div className="text-sm font-bold text-zinc-400">Institute of Technology</div>
+          <div className="text-sm font-bold text-zinc-400">Sri Ramakrishna Institute Of Technology</div>
         </div>
         <div className="space-y-1">
           <div className="text-[10px] font-bold text-zinc-600 uppercase tracking-widest">Event Date</div>
