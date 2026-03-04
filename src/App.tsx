@@ -583,7 +583,7 @@ const FinalSummary = () => {
         </div>
         <div className="space-y-1">
           <div className="text-[10px] font-bold text-zinc-600 uppercase tracking-widest">Event Date</div>
-          <div className="text-sm font-bold text-zinc-400">March 25-27, 2026</div>
+          <div className="text-sm font-bold text-zinc-400">March 13-14, 2026</div>
         </div>
       </motion.div>
     </div>
