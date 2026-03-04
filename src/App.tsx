@@ -394,9 +394,9 @@ const TerminalReveal = ({ onComplete }: { onComplete: () => void }) => {
   const [isProcessing, setIsProcessing] = useState(false);
 
   const modules: EventModule[] = [
-    { id: '01', title: 'TECH-STORM 2026', type: 'TECHNICAL', tagline: 'The Ultimate Coding Challenge', status: 'ACTIVE', description: 'A high-stakes technical competition featuring algorithm design and system architecture.' },
-    { id: '02', title: 'PIXEL PERFECT', type: 'NON-TECHNICAL', tagline: 'Creative Design Marathon', status: 'ACTIVE', description: 'Showcase your creative prowess in our premier digital art and UI/UX design event.' },
-    { id: '03', title: 'VOICE OF EXPRESSION', type: 'NON-TECHNICAL', tagline: 'Public Speaking & Debate', status: 'ACTIVE', description: 'Join the most prestigious debating forum and let your voice be heard.' },
+    { id: '01', title: 'PROMPTLY', type: 'TECHNICAL', tagline: 'Master the Art of Prompting', status: 'ACTIVE', description: 'A challenge to solve complex problems using LLMs and advanced prompt engineering techniques.' },
+    { id: '02', title: 'DEBUG DETECTIVE', type: 'TECHNICAL', tagline: 'Uncover the Hidden Bugs', status: 'ACTIVE', description: 'A race against time to find and fix critical system vulnerabilities and code defects.' },
+    { id: '03', title: 'THINK TANK THROWDOWN', type: 'NON-TECHNICAL', tagline: 'The Ultimate Brainstorming Battle', status: 'ACTIVE', description: 'A high-energy competition of strategy, innovation, and persuasive pitching.' },
   ];
 
   const handleCommand = async (e: React.FormEvent) => {
@@ -513,9 +513,9 @@ const TerminalReveal = ({ onComplete }: { onComplete: () => void }) => {
 
 const FinalSummary = () => {
   const modules: EventModule[] = [
-    { id: '01', title: 'TECH-STORM 2026', type: 'TECHNICAL', tagline: 'The Ultimate Coding Challenge', status: 'ACTIVE', description: 'A high-stakes technical competition featuring algorithm design and system architecture.' },
-    { id: '02', title: 'PIXEL PERFECT', type: 'NON-TECHNICAL', tagline: 'Creative Design Marathon', status: 'ACTIVE', description: 'Showcase your creative prowess in our premier digital art and UI/UX design event.' },
-    { id: '03', title: 'VOICE OF EXPRESSION', type: 'NON-TECHNICAL', tagline: 'Public Speaking & Debate', status: 'ACTIVE', description: 'Join the most prestigious debating forum and let your voice be heard.' },
+    { id: '01', title: 'PROMPTLY', type: 'TECHNICAL', tagline: 'Master the Art of Prompting', status: 'ACTIVE', description: 'A challenge to solve complex problems using LLMs and advanced prompt engineering techniques.' },
+    { id: '02', title: 'DEBUG DETECTIVE', type: 'TECHNICAL', tagline: 'Uncover the Hidden Bugs', status: 'ACTIVE', description: 'A race against time to find and fix critical system vulnerabilities and code defects.' },
+    { id: '03', title: 'THINK TANK THROWDOWN', type: 'NON-TECHNICAL', tagline: 'The Ultimate Brainstorming Battle', status: 'ACTIVE', description: 'A high-energy competition of strategy, innovation, and persuasive pitching.' },
   ];
 
   return (
